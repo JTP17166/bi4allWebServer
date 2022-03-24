@@ -1,0 +1,153 @@
+*
+{
+	box-sizing: border-box;
+}
+
+body, html
+{
+	height: 100%;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 300;
+	margin: 0;
+	padding: 0;
+}
+
+.bg
+{
+	background-image: url('Bi4all2021JUL-111-792x475.jpeg');	
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.logo
+{
+	background-image: url("logo_BI.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100px;
+	height: auto;
+	margin: 2rem;
+}
+
+.container
+{
+	width: 72%;
+	margin: 0 auto;
+}
+
+.nav-head
+{
+	background: #67c1a3;
+	opacity: 0.8;
+}
+
+header::after
+{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo
+{
+	float: left;
+	padding: 17px 0;
+}
+
+.nav-bar
+{
+  float: right;
+}
+
+.nav-list
+{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-items
+{
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 40px;
+  position: relative;
+}
+
+.nav-links
+{
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.nav-links:hover
+{
+  color: #000;
+}
+
+.nav-links::before
+{
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+  position: absolute;
+  top: 0;
+  width: 0%;
+  transition: all ease-in-out 250ms;
+}
+
+.nav-links:hover::before
+{
+  width: 100%;
+}
+
+.content
+{
+	display: flex;
+	justify-content: center;
+}
+
+.text-box
+{
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+	background-color: rgba(0,0,0,0.3);
+	padding: 0.8rem;
+	padding-top: 0;
+	padding-bottom: 2rem;
+	border-radius: 1em;
+}
+
+.text
+{
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 10rem;
+	color: #70e1bb;
+}
+
+.button
+{
+	width: 25%;
+	height: 25%;
+	border-radius: 1em;
+	padding: 15px;
+}
+
+.book
+{
+	margin-right: 10px;
+}
+
+.cancel
+{
+	margin-left: 10px;
+}
